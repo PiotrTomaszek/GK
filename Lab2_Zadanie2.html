@@ -71,7 +71,7 @@
         var colorChoice;  // Integer code for the selected color in the "colorChoide"
                           // popup menu.  The value is assigned in doMouseDown.
         
-		var styleChoice; // What style of shapes program will draw
+	var styleChoice; // What style of shapes program will draw
 
         function doMouseDown(evt) {
                 // This function is called when the user presses a button on the mouse.
@@ -128,21 +128,21 @@
             else if (colorChoice == 3) {
                 graphics.fillStyle = "blue";
             }
-			else if (colorChoice == 4){
-				graphics.fillStyle = "yellow";
-			}
+	    else if (colorChoice == 4){
+		graphics.fillStyle = "yellow";
+	    }
 
 
 
-			if( styleChoice == 0){
-				graphics.lineWidth = 1;
-				graphics.fillRect(x-20,y-20,40,40);
-				graphics.strokeRect(x-20,y-20,40,40);
-			}
-			else if (styleChoice == 1){
-				graphics.fillPoly(x,y, x+20, y-20, x+40,y,x+20,y+20);
-				graphics.strokePoly(x,y, x+20, y-20, x+40,y,x+20,y+20);
-			}            
+	    if( styleChoice == 0){
+		graphics.lineWidth = 1;
+		graphics.fillRect(x-20,y-20,40,40);
+		graphics.strokeRect(x-20,y-20,40,40);
+	     }
+	     else if (styleChoice == 1){
+		graphics.fillPoly(x,y, x+20, y-20, x+40,y,x+20,y+20);
+		graphics.strokePoly(x,y, x+20, y-20, x+40,y,x+20,y+20);
+	     }            
             
             /*------------------------------------------------------------*/
             
