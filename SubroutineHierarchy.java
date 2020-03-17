@@ -47,16 +47,16 @@ public class SubroutineHierarchy extends JPanel {
 	 */
 	private void drawWorld(Graphics2D g2) {
 
-		myRectangle(g2, 3, 0.25, 0, -0.5);
-		myRectangle(g2, 2.25, 0.1875, -2, 1.4);
-		myRectangle(g2, 1.5, 0.125, 2, 1.75);
-
 		myRotatingPolygon(g2, 0.8, 0.8, -1.25, 0);
 		myRotatingPolygon(g2, 0.8, 0.8, 1.25, -1);
 		myRotatingPolygon(g2, 0.6, 0.6, -3, 1.8);
 		myRotatingPolygon(g2, 0.6, 0.6, -1, 1);
 		myRotatingPolygon(g2, 0.4, 0.4, 1.3, 2.05);
 		myRotatingPolygon(g2, 0.4, 0.4, 2.75, 1.45);
+		
+		myRectangle(g2, 3, 0.25, 0, -0.5);
+		myRectangle(g2, 2.25, 0.1875, -2, 1.4);
+		myRectangle(g2, 1.5, 0.125, 2, 1.75);
 
 		myTriangle(g2, Color.BLUE, 1, 2.5, 0, -3);
 		myTriangle(g2, Color.MAGENTA, 0.75, 1.875, -2, -0.5);
