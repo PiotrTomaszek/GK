@@ -41,7 +41,7 @@ public class SceneGraph extends JPanel {
 	private CompoundObject world; // SceneGraphNode representing the entire scene.
 
 	// TODO: Define global variables to represent animated objects in the scene.
-	private TransformedObject rotatingRect; // (DELETE THIS EXAMPLE)
+
 	private TransformedObject triangle1;
 	private TransformedObject triangle2;
 	private TransformedObject triangle3;
