@@ -97,16 +97,16 @@ public class SceneGraph extends JPanel {
 		polygon6 = new TransformedObject(filledPolygon);
 		polygon6.setScale(0.4, 0.4).setTranslation(2.75, 1.45).setColor(Color.ORANGE);
 
-		world.add(rectangle1);
-		world.add(rectangle2);
-		world.add(rectangle3);
-
 		world.add(polygon1);
 		world.add(polygon2);
 		world.add(polygon3);
 		world.add(polygon4);
 		world.add(polygon5);
 		world.add(polygon6);
+		
+		world.add(rectangle1);
+		world.add(rectangle2);
+		world.add(rectangle3);
 
 		world.add(triangle1);
 		world.add(triangle2);
